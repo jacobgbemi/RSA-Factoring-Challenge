@@ -4,8 +4,10 @@
 import math
 from sys import argv
 
+
 def polynomial(x, n):
     return (x**2 + 1) % n
+
 
 def pollards_rho(n):
     x = 2
